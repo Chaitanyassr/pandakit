@@ -1,0 +1,59 @@
+/* Licensed under MIT (https://github.com/CirclepandaLab/pandakit/blob/master/LICENSE)
+*/
+/*under construction*/
+@import url('https://fonts.googleapis.com/css?family=Darker+Grotesque|Slabo+13px&display=swap&subset=latin-ext,vietnamese');
+@import "pandakit.layout.css";
+@import "pandakit.color.css";
+@import "pandakit.button.css";
+@import "pandakit.media.css";
+@import "pandakit.typography.css";
+
+/*
+	font-family: 'Slabo 13px', serif;
+	font-family: 'Darker Grotesque', sans-serif;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    -webkit-overflow-scrolling: touch;
+  }
+
+body, html { color: #38394B; 
+}
+
+p {
+}
+
+/*vertical split screen*/
+.splitv {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.leftv {
+  left: 0;
+  background-color:#FFFFFF;
+}
+
+.rightv {
+  right: 0;
+  background-color:#000000;
+}
+
+.centerv {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+ transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+
+.text-white { color: #ffffff; }
+.text-dark { color: #030015; }
+
